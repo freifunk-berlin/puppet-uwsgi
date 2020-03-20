@@ -12,7 +12,7 @@ class uwsgi::params {
     $service_name        = 'uwsgi'
     $service_ensure      = true
     $service_enable      = true
-    $service_provider    = 'upstart'
+    $service_provider    = 'systemd'
     $manage_service_file = true
     $binary_directory    = '/usr/sbin'
     $config_file         = '/etc/uwsgi.ini'

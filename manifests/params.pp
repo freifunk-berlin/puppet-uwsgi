@@ -14,7 +14,7 @@ class uwsgi::params {
     $service_enable      = true
     $service_provider    = 'systemd'
     $manage_service_file = true
-    $binary_directory    = '/usr/sbin'
+    $binary_directory    = '/usr/bin'
     $config_file         = '/etc/uwsgi.ini'
     $tyrant              = true
     $install_pip         = true
